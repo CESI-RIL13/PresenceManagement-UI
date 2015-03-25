@@ -61,6 +61,3 @@ a { color: #099; }
 /* Participant */
 .list--participants th:first-child,
 .list--participants td:first-child { width: 40%; }
-
-/* Promotion */
-.form--promotion__element {  }
