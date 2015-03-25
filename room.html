@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>Participants</title>
+	<title>Participant</title>
 	<meta name="description" content="">
 	<meta name="author" content="øvnislash">
 
@@ -35,47 +35,21 @@
 				<a class="menu__element__link" href="plannings.html">Plannings</a>
 			</li>
 			<li class="menu__element">
-				<a class="menu__element__link" href="rooms.html">Rooms</a>
+				<a class="menu__element__link menu__element__link--active" href="rooms.html">Rooms</a>
 			</li>
 			<li class="menu__element">
-				<a class="menu__element__link menu__element__link--active" href="utilisateurs.html">Utilisateurs</a>
+				<a class="menu__element__link" href="utilisateurs.html">Utilisateurs</a>
 			</li>
 		</ul>
 	</nav>
 </header>
-<div class="bloc bloc--content bloc--content--participants">
-	<form class="form" action="#"  method="POST">
-		<h2 class="form__title">Filtres</h2>
-		<input class="form__element form__element--name" type="text" placeholder="Nom">
-		<button class="form__element form__element--submit" type="submit">Filtrer</button>
+<div class="bloc bloc--content bloc--content--room">
+	<form class="form form--room" action="#"  method="POST">
+		<h2 class="form__title">Cap Ferret</h2>
+		<label class="form__element form--promotion__element">Adresse MAC</label>
+		<input class="form__element form--promotion__element" type="text">
+		<button class="form__element form__element--submit" type="submit">Enregistrer</button>
 	</form>
-	<table class="list list--participants" width="100%">
-		<tr>
-			<th>Nom</th>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-		<tr>
-			<td>Jean VALJEAN</td>
-		</tr>
-	</table>
 </div>
-<script src="js/script.js"></script>
 </body>
 </html>

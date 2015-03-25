@@ -1,5 +1,5 @@
 // Initialisation des champs date et promotions
-$(".form__element--promotions").chosen({max_selected_options: 99, no_results_text: "Aucun résultat..."});
+$(".form__element--promotions, .form__element--rooms").chosen({max_selected_options: 99, no_results_text: "Aucun résultat..."});
 $(".form__element--date--precise").datetimepicker({
 	lang:'fr',
 	format:'d.m.Y',

@@ -14,11 +14,11 @@
 </header>
 <div class="bloc bloc--content">
 	<form class="connexion" action="presences.html"  method="POST">
-			<label>Identifiant</label>
-			<input class="connexion__element" type="textfield">
+			<label for="mail">Identifiant</label>
+			<input class="connexion__element" type="text" name="mail" id="mail">
 			<p class="connexion__error connexion__error--identifiant">Identifiant inconnu</p>
-			<label>Mot de passe</label>
-			<input class="connexion__element" type="password">
+			<label for="password">Mot de passe</label>
+			<input class="connexion__element" type="password" name="password" id="password">
 			<p class="connexion__error connexion__error--password">Mot de passe incorrect</p>
 			<button class="connexion__element connexion__element--submit" type="submit">Connexion</button>
 	</form>
