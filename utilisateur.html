@@ -46,12 +46,19 @@
 <div class="bloc bloc--content bloc--content--participants">
 	<form class="form" action="#"  method="POST">
 		<h2 class="form__title">Jean Valjean</h2>
-		<label class="form__element">Email</label>
-		<input class="form__element" type="text">
-		<label><input type="radio" name="group1" value="assistant"> Assistant</label>
-		<label><input type="radio" name="group1" value="ingenieur" checked> Ingénieur de formation</label>
-		<label><input type="radio" name="group1" value="superadmin"> Super Admin</label>
-		<button class="form__element form__element--submit" type="submit">Générer QRCode</button>
+		<label class="form__element">Nom </label><input class="form__element" type="text">
+		<label class="form__element">Email </label><input class="form__element" type="text">
+		<br>
+		<label class="form__element"> Réinitiliaser le mot de passe </label><input class="form__element" type="text" placeholder="Nouveau mot de passe...">
+		<input class="form__element" type="text" placeholder="Confirmer mot de passe...">
+		<h2 class="form__title">Rôle</h2>
+		<br>
+		<label class="form__element"><input type="radio" name="group1" value="assistant"> Assistant</label>
+		<br>
+		<label class="form__element"><input type="radio" name="group1" value="ingenieur" checked> Ingénieur de formation</label>
+		<br>
+		<label class="form__element"><input type="radio" name="group1" value="superadmin"> Super Admin</label>
+		<button class="form__element form__element--submit" type="submit">Enregistrer</button>
 	</form>
 </div>
 </body>
